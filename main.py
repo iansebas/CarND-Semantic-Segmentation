@@ -17,10 +17,10 @@ print('TensorFlow Version: {}'.format(tf.__version__))
 # Check for a GPU
 if not tf.test.gpu_device_name():
     warnings.warn('No GPU found. Please use a GPU to train your neural network.')
-    batch_size_from_device = 4
+    batch_size_from_device = 1
 else:
     print('Default GPU Device: {}'.format(tf.test.gpu_device_name()))
-    batch_size_from_device = 128
+    batch_size_from_device = 8
 
 
 cfg = {
@@ -31,7 +31,7 @@ cfg = {
     "image_shape" : (160, 576),
     "num_classes" : 2,
     "keep_prob" : 0.5,
-    "epochs" : 6,
+    "epochs" : 50,
     "learning_rate" : 0.001,
     "kernel_regularizer_scale" : 1e-3,
     "batch_size" : batch_size_from_device,
