@@ -2,7 +2,7 @@ Write-up
 
 ![alt text](./runs/1530502751.7663288/umm_000012.png "1")
 ![alt text](./runs/1530502751.7663288/uu_000087.png "2")
-![alt text](./runs/1530502751.7663288/uu_000006.png.png "3")
+![alt text](./runs/1530502751.7663288/uu_000006.png "3")
 ![alt text](./runs/1530502751.7663288/uu_000002.png "4")
 
 1. Loading
